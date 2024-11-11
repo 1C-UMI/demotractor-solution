@@ -22,7 +22,7 @@ $page = $this->getPageAndPushToEditable($variables['pageId']);
 		<?php if ($this->isFirstLevelPage($page)): ?>
 			<?= $this->render($this->macros('catalog', 'getCategoryList', [null, $page->getId()]), 'catalog/category_list') ?>
 		<?php else: ?>
-			<?= $this->render($this->macros('catalog', 'getSmartCatalog', [null, $page->getId()]), 'catalog/object_list') ?>
+			<?= $this->render($this->macros('catalog', 'getSmartCatalog', [$page->getId()]), 'catalog/object_list') ?>
 		<?php endif; ?>
 	</div>
 </div>
