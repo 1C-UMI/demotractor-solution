@@ -12061,7 +12061,7 @@ INSERT INTO `cms_reg` (`id`, `var`, `val`, `rel`) VALUES
 (288,	'site_name',	'umicms.demo site',	247),
 (289,	'title_prefix',	'',	247),
 (290,	'1',	'',	289),
-(291,	'1',	'UMI.CMS - ',	290),
+(291,	'1',	'UMI.CMS -',	290),
 (292,	'2',	'',	290),
 (293,	'domain',	'',	247),
 (294,	'admin_email',	'demo@umi-cms.ru',	247),
